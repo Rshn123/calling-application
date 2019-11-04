@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#2B2B2B"
+    android:weightSum="8"
+    android:layout_height="match_parent"
+    tools:context=".CallActivity"
+    >
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        android:layout_marginTop = "20dp"
+
+        android:layout_marginBottom="200dp"
+        >
+        <TextView
+            android:id="@+id/callUI"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:gravity = "center"
+            android:textSize = "25sp"
+            android:textColor = "#fff"
+            tools:text = "Roshan's CallUI!"
+            />
+        <TextView
+            android:textColor = "#fff"
+            android:textSize = "20sp"
+            android:id = "@+id/callInfo"
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:gravity = "center"
+            tools:text="Hello World!"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Record"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/record"
+            android:background="#2B2B2B"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Contact"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/contact"
+            android:background="#2B2B2B"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/addCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Add Call"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/addcall"
+            android:background="#2B2B2B"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Mute"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/mute"
+            android:background="#2B2B2B"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/speaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Speaker"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/speaker"
+            android:background="#2B2B2B"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/dialPad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Dialpad"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/dialpad"
+            android:background="#2B2B2B"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/hangup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Hang Up"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/hangup"
+            android:background="#2B2B2B"
+            />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Answer"
+            android:textColor="#fff"
+            android:drawableTop="@drawable/answer"
+            android:background="#2B2B2B"
+            />
+    </LinearLayout>
+
+</LinearLayout>

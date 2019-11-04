@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CallingApplication</string>
+    <string name="enter_number">Enter Phone Number</string>
+</resources>
